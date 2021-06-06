@@ -19,7 +19,7 @@ header {
 /* add a green background to noplogy logo */
 #logo {
   background-color: green;
-  padding: 20px;
+  padding: 20px 100px;
 }
 
 /* remove bullet points from list and move links to the RHS */
