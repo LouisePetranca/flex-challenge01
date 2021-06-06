@@ -33,3 +33,34 @@ header {
 #nav-links li {
   padding: 10px 100px;
 }
+
+/* make LHS panels a column */
+#lhs-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* style the panels on the LHS */
+.lhs-panel {
+  border: 2px solid black;
+  height: auto;
+  width: 1000px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* add spacing around the list in the LHS panels*/
+.lhs-panel li {
+  padding: 5px;
+}
+
+/* move list in lhs panels towards the right */
+.lhs-panel ul{
+  padding: 10px;
+  margin-left: 50px;
+}
+
+/* change size of the panel headers to be the same size */
+h1, h2, h3, h4 {
+  font-size: 20px;
+}
