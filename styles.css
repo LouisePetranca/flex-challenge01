@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  font-family: sans-serif;
+}
+
+/* create a black header bar and center the text */
+header {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* add a green background to noplogy logo */
+#logo {
+  background-color: green;
+  padding: 20px;
+}
+
+/* remove bullet points from list and move links to the RHS */
+#nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;  
+}
+
+/* add padding to the links */
+#nav-links li {
+  padding: 10px 100px;
+}
